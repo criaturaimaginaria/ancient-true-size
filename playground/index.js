@@ -94,7 +94,7 @@ const Playground = {
     const listItem = document.createElement('li');
     listItem.innerHTML = `
       <span>${layerNameFromProperties}</span>
-      <button data-layer="${initialLayerName}" class="hide-layer">Hidde</button>
+      <button data-layer="${initialLayerName}" class="hide-layer">Hide</button>
       <button data-layer="${initialLayerName}" class="remove-layer">Delete</button>
     `;
     activeLayersList.appendChild(listItem);
@@ -138,7 +138,7 @@ const Playground = {
         const listItem = document.createElement('li');
         listItem.innerHTML = `
           <span>${layerData.properties.name}</span>
-          <button data-layer="${layerName}" class="hide-layer">Hidde</button>
+          <button data-layer="${layerName}" class="hide-layer">Hide</button>
           <button data-layer="${layerName}" class="remove-layer">Delete</button>
         `;
         activeLayersList.appendChild(listItem);
