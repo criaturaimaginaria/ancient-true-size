@@ -56,6 +56,11 @@
     #active-layers li {
       margin-bottom: 5px;
     }
+
+  .help-container{
+    color: rgb(206, 0, 206);
+  }
+
     </style>
   </head>
   <body>
@@ -63,11 +68,6 @@
       <div id="map"></div>
       <div id="layer-controls">
         <h3>Ancient true size</h3>
-        <!-- <input type="text" id="search-input" placeholder="Buscar capas..." />
-        <select id="layer-select">
-          <option value="" disabled selected>Seleccionar una capa</option>
-        </select> -->
-
         <div id="search-container">
           <input type="text" id="search-input" placeholder="Search" />
           <select id="layer-select" size="5"> 
@@ -75,6 +75,11 @@
           </select>
         </div>
         <ul id="active-layers"></ul>
+        <div class="help-container">
+          Contribute by creating more ancient maps using 
+          <a href="https://geojson.io" target="_blank" rel="noopener noreferrer">geojson.io</a>,
+          you can send me the JSON data of your map to ancienttruesize@gmail.com
+        </div>
       </div>
     </div>
     <script src="asia.js"></script>
