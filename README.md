@@ -1,3 +1,5 @@
+This is a fork from this project: https://wbkd.github.io/leaflet-truesize/
+
 ## Installation
 
 You need [Leaflet](http://leafletjs.com/) in order to run this plugin.
