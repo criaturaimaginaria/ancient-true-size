@@ -93,9 +93,9 @@ const Playground = {
   
     const listItem = document.createElement('li');
     listItem.innerHTML = `
-      <span>${layerNameFromProperties}</span>
       <button data-layer="${initialLayerName}" class="hide-layer">Hide</button>
       <button data-layer="${initialLayerName}" class="remove-layer">Delete</button>
+      <span>${layerNameFromProperties}</span>
     `;
     activeLayersList.appendChild(listItem);
   },
@@ -137,9 +137,9 @@ const Playground = {
   
         const listItem = document.createElement('li');
         listItem.innerHTML = `
-          <span>${layerData.properties.name}</span>
           <button data-layer="${layerName}" class="hide-layer">Hide</button>
           <button data-layer="${layerName}" class="remove-layer">Delete</button>
+          <span>${layerData.properties.name}</span>
         `;
         activeLayersList.appendChild(listItem);
       }
@@ -186,6 +186,8 @@ const layers = {
   carthageKingdom1: carthageKingdom1,
   carthageKingdom2: carthageKingdom2,
   carthageKingRep: carthageKingRep,
+  palmyra: palmyra,
+  palmyraEmpire: palmyraEmpire,
   carthageRepublicFinal: carthageRepublicFinal,
   Venice700: Venice700,
   Venice1500: Venice1500,
@@ -194,7 +196,10 @@ const layers = {
   Noli: Noli,
   Genoa: Genoa,
   Genoa1566: Genoa1566,
+  florenceRepublic:florenceRepublic,
+  florenceRepublic2:florenceRepublic2,
   RepublicaCorsa:RepublicaCorsa,
+  naplesKingdom: naplesKingdom,
   Athens: Athens,
   Sparta: Sparta,
   EgyptOldKingdom: EgyptOldKingdom,
