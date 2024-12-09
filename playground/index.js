@@ -199,6 +199,7 @@ const layers = {
   Pisa: Pisa,
   Pisa2: Pisa2,
   Pisa3: Pisa3,
+  ragusa:ragusa,
   florenceRepublic:florenceRepublic,
   florenceRepublic2:florenceRepublic2,
   luccaRepublic:luccaRepublic,
