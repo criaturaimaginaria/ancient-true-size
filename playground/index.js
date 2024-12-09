@@ -206,6 +206,7 @@ const layers = {
   massaDuchy:massaDuchy,
   RepublicaCorsa:RepublicaCorsa,
   naplesKingdom: naplesKingdom,
+  sicilyKingdom:sicilyKingdom,
   Athens: Athens,
   Sparta: Sparta,
   EgyptOldKingdom: EgyptOldKingdom,
